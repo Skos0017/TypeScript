@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Geometri_1 = require("./Geometri");
+const Algebra_1 = require("./Algebra");
+let circle = new Geometri_1.Geometry.Circle(10);
+console.log(circle.erea());
+let rectangle = new Geometri_1.Geometry.Rectangle(12, 5);
+console.log(rectangle.area());
+let root = Algebra_1.Algebra.solveQuadreatic(1, 5, 3);
+console.log(root[0]);
+console.log(root[1]);

@@ -17,14 +17,14 @@
 // }
 // summ<number>(10,15);
 
-// function dictionary<TKey, TValeu>(key: TKey,value: TValeu): {key: TKey, value: TValeu} {
-//     return{key, value}
-// }
+function dictionary<TKey, TValeu>(key: TKey,value: TValeu): {key: TKey, value: TValeu} {
+    return{key, value}
+}
 
-// let dic:{key: string, value: number}=dictionary<string, number>("Индекс",25);
-// console.log(dic);
-// console.log(typeof(dic.key));
-// console.log(typeof(dic.value));
+let dic:{key: string, value: number}=dictionary<string, number>("Индекс",25);
+console.log(dic);
+console.log(typeof(dic.key));
+console.log(typeof(dic.value));
 
 // function bubblesSorting<TValeu>(arr:TValeu[]) {  
 
