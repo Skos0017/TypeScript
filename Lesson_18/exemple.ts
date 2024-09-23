@@ -50,14 +50,16 @@
 // type BoolianArr = boolean[];
 // let typeFalseArr: BoolianArr = [true,false,true,false,true,false];
 
-type Result<T> = {
-    success: boolean;
-    data: T;
-    error: string;
-}
+// type Result<T> = {
+//     success: boolean;
+//     data: T;
+//     error: string;
+// }
 
-let successData: Result<number>= {
-    success:false,
-    data:323213231321,
-    error:'DataEroor'
-}
+// let successData: Result<number>= {
+//     success:false,
+//     data:323213231321,
+//     error:'DataEroor'
+// }
+
+// Изучить Дайнемик
