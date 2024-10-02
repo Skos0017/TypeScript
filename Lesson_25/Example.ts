@@ -34,4 +34,12 @@
 //     };
 //   };
 // type NewSome = ReadonlyType<Some>;
-  
+
+
+type CheckString<T> = {
+    readonly [K in keyof T]: CheckString<T[K]>;
+};
+
+type Obj = {
+    c: string;
+};
