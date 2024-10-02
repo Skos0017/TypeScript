@@ -61,4 +61,4 @@ class Device {
     }
 }
 
-class Smartphone extends {}
+class Smartphone extends Chargeable(Connectable(Device)){}
