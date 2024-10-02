@@ -1,0 +1,9 @@
+* {
+    font-family: Calibri;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
