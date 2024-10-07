@@ -13,13 +13,13 @@
 //     return first;
 // }
 // summ<number>(10,15);
-// function dictionary<TKey, TValeu>(key: TKey,value: TValeu): {key: TKey, value: TValeu} {
-//     return{key, value}
-// }
-// let dic:{key: string, value: number}=dictionary<string, number>("Индекс",25);
-// console.log(dic);
-// console.log(typeof(dic.key));
-// console.log(typeof(dic.value));
+function dictionary(key, value) {
+    return { key, value };
+}
+let dic = dictionary("Индекс", 25);
+console.log(dic);
+console.log(typeof (dic.key));
+console.log(typeof (dic.value));
 // function bubblesSorting<TValeu>(arr:TValeu[]) {  
 //     for (let j = arr.length - 1; j > 0; j--) {
 //         for (let i = 0; i < j; i++) {

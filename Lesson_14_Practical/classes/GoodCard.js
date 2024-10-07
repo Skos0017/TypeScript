@@ -1,5 +1,8 @@
-import { Good } from "./Good.js";
-export class GoodCard extends Good {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.GoodCard = void 0;
+const Good_js_1 = require("./Good.js");
+class GoodCard extends Good_js_1.Good {
     constructor(title, description, price, image) {
         super();
         this._title = title;
@@ -44,3 +47,4 @@ export class GoodCard extends Good {
         console.log(`Логирование карточки: ${this.getInfo()}`);
     }
 }
+exports.GoodCard = GoodCard;

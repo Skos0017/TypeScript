@@ -24,4 +24,4 @@ heiden.textContent = `Рост ${person.heiden}`;
 const phoneNumber = document.createElement('p');
 phoneNumber.textContent = `телефон ${person.heiden}`;
 const imagePth = document.createElement('img');
-imagePth.textContent = `картинка  ${person.heiden}`;
+imagePth.alt = `картинка  ${person.heiden}`;

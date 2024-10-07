@@ -1,4 +1,7 @@
-export class CardsContainer {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.CardsContainer = void 0;
+class CardsContainer {
     constructor(parent, goodCards) {
         this._parent = parent;
         this._goodCards = goodCards;
@@ -9,3 +12,4 @@ export class CardsContainer {
         });
     }
 }
+exports.CardsContainer = CardsContainer;
